@@ -1,42 +1,25 @@
-#
-# Be sure to run `pod lib lint KwiksSystemsAlerts.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+#KwiksSystemsAlerts
 
 Pod::Spec.new do |s|
   s.name             = 'KwiksSystemsAlerts'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KwiksSystemsAlerts.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.1.1'
+  s.summary          = 'KwiksSystemsAlerts was designed to handle all internal full screen style blockers in the Kwiks iOS Application.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'KwiksSystemsAlerts was designed to help support light frontend and easy code management solutions. The goal of this pod is to provide a one liner full screen blocker that switches the BlockerType enum.'
                        DESC
 
-  s.homepage         = 'https://github.com/26388491/KwiksSystemsAlerts'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/26388491/KwiksSystemsPopups'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '26388491' => 'noimpactapplications@gmail.com' }
-  s.source           = { :git => 'https://github.com/26388491/KwiksSystemsAlerts.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'KWIKS CTO' => 'charlie@kwiks.com' }
+  s.source           = { :git => 'https://github.com/NoImpactNoIdea/KwiksSystemsAlerts.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
+  s.swift_versions = "5.0"
+  s.requires_arc = true
 
   s.source_files = 'KwiksSystemsAlerts/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'KwiksSystemsAlerts' => ['KwiksSystemsAlerts/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resources = 'KwiksSystemsAlerts/**/*.{lproj,storyboard,xcdatamodeld,xib,xcassets,json,ttf,otf}'
+  s.frameworks = 'UIKit'
+   
 end
