@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   'KwiksSystemsAlerts was designed to help support light frontend and easy code management solutions. The goal of this pod is to provide a one liner full screen blocker that switches the BlockerType enum.'
                        DESC
 
-  s.homepage         = 'https://github.com/26388491/KwiksSystemsPopups'
+  s.homepage         = 'https://github.com/KWIKSCTO/KwiksSystemsAlerts'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KWIKS CTO' => 'charlie@kwiks.com' }
   s.source           = { :git => 'https://github.com/NoImpactNoIdea/KwiksSystemsAlerts.git', :tag => s.version.to_s }
