@@ -27,7 +27,6 @@ public class KwiksSystemAlerts : NSObject {
         case authenticationError
         case authenticationDenied
         case updateKwiks
-
     }
     
     public var rootController: UIViewController?
@@ -320,8 +319,8 @@ public class KwiksSystemAlerts : NSObject {
             self.confirmationButton.centerXAnchor.constraint(equalTo: self.dynamicPopUpContainer.centerXAnchor).isActive = true
             self.buttonWidthLayoutConstraint = self.confirmationButton.widthAnchor.constraint(equalToConstant: 185)
             self.buttonWidthLayoutConstraint?.isActive = true
-            self.confirmationButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
-            self.confirmationButton.layer.cornerRadius = 30
+            self.confirmationButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
+            self.confirmationButton.layer.cornerRadius = 25
             
             self.activityIndicator.centerXAnchor.constraint(equalTo: self.confirmationButton.centerXAnchor).isActive = true
             self.activityIndicator.centerYAnchor.constraint(equalTo: self.confirmationButton.centerYAnchor).isActive = true

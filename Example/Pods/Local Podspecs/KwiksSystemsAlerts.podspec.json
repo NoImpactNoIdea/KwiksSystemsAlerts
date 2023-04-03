@@ -1,9 +1,9 @@
 {
   "name": "KwiksSystemsAlerts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "KwiksSystemsAlerts was designed to handle all internal full screen style blockers in the Kwiks iOS Application.",
   "description": "'KwiksSystemsAlerts was designed to help support light frontend and easy code management solutions. The goal of this pod is to provide a one liner full screen blocker that switches the BlockerType enum.'",
-  "homepage": "https://github.com/26388491/KwiksSystemsPopups",
+  "homepage": "https://github.com/KWIKSCTO/KwiksSystemsAlerts",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/NoImpactNoIdea/KwiksSystemsAlerts.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "15.0"
